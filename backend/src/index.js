@@ -10,3 +10,5 @@ app.use(express.json());
 app.use(routes);
 
 app.listen(3333);
+
+//Para resetar todo o banco de dados precisamos deletar somente o db.sqlite e rodar o comando npx knex migrate:latest
